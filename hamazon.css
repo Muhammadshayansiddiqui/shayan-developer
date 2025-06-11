@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: aqua;
+}
+
+.con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+#hamazon{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#About{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+}
+.box{
+height: 30px;
+display: flex;
+cursor: pointer;
+padding: 10px 20px;
+background-color: aliceblue;
+border-radius: 30px;
+align-items: center;
+box-shadow: 0 10px 25px rgba(0, 0,0,3);
+}
+.box:hover input{
+    width: 400px;
+}
+.box input{
+    width: 0;
+    outline: none;
+    border:none;
+    font-weight: 500;
+    transition-duration: 0.8s;
+    background: transparent;
+}
+
+.box a .fas{
+    color:aqua;
+    font-size: 18px;
+    
+}
+.home{
+    margin-right: 100px;
+}
